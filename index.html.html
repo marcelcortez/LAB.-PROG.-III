@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Contatos</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td id="main1">
+                <form onsubmit="event.preventDefault(); adicionar();">
+                    <div>
+                        <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                    </div>
+                    <div>
+                        <input type="email" name="email" id="email" placeholder="E-mail" required>
+                    </div>
+                    <div>
+                        <input type="tel" name="whatsapp" id="whatsapp" placeholder="WhatsApp" required>
+                    </div>
+                    <div>
+                        <input type="text" name="instagram" id="instagram" placeholder="Instagram">
+                    </div>
+                    <div>
+                        <input type="submit" value="Adicionar">
+                    </div>
+                </form>
+            </td>
+            <td id="main2">
+                <table id="listaContatos">
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>E-mail</th>
+                            <th>WhatsApp</th>
+                            <th>Instagram</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>

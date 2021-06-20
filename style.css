@@ -1,0 +1,119 @@
+body {
+    background-image: linear-gradient(45deg, rgb(46, 35, 85), #1de9f0);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body > table {
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 60%;
+    border-radius: 15px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+#listaContatos {
+    width:100%;
+}
+
+#main1 {
+    border-right: 2px solid rgba(13, 184, 214, 0.3);
+    text-align: left;
+    padding: 12px;
+    width: 25%;
+}
+
+#main2 {
+    padding: 3%;
+    padding-bottom: 18%;
+    font-size: 14px;
+}
+
+#main2 th {
+    font-size: 18px;
+    text-align: center;
+}
+
+#main2 td {
+    text-align: center;
+}
+
+input {
+    padding: 12px;
+    width: 90%;
+    border: none;
+    outline: none;
+    font-size: small;
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    width: 50%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 60px;
+    margin-top: 12px;
+}
+
+input[type="submit"]:hover{
+    background-color: deepskyblue;
+}
+
+th {
+    text-align: center;
+}
+
+#main2 > tbody > tr {
+    border-bottom: 1px solid white;
+}
+
+#b1 {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+ }
+ 
+ #b1:hover {
+   background-image: linear-gradient(45deg, rgb(25, 90, 150), #24b8e6);
+    color: white;
+    font-weight: bold;
+    border-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+ }
+
+ #b2 {
+   background-color: transparent;
+   color: white;
+   font-weight: bold;
+   border-color: white;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+
+ #b2:hover {
+   background-image: linear-gradient(45deg, rgb(190, 54, 54), #ff0606);
+   color: white;
+   font-weight: bold;
+   border-color: white;
+   border-radius: 4px;
+   cursor: pointer;
+ }
